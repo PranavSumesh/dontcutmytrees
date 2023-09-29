@@ -60,7 +60,7 @@ class VisualizationService:
 
     @staticmethod
     def load_main_game_displays():
-        pygame.display.set_caption("Don't Touch My Presents")
+        pygame.display.set_caption("Don't Cut My Trees")
         gift = VisualizationService.get_player_image()
         pygame.display.set_icon(gift)
 
